@@ -1,7 +1,9 @@
-body > h1, h2 {
+body {
+  font-family: Alkalami, serif;
+}
+h1, h2 {
   font-family: Silkscreen, cursive;
 }
 p {
-  font-family: Alkalami, serif;
   line-height: 2.4em;
 }

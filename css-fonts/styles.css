@@ -1,0 +1,13 @@
+body {
+  font-family: Alkalami, serif;
+}
+h1, h2 {
+  font-family: Silkscreen, cursive;
+}
+p {
+  line-height: 2.4rem;
+}
+h2 {
+  font-size: 1rem;
+  font-style: italic;
+}

@@ -9,4 +9,5 @@ html {
   /* your code here */
   position: fixed;
   left: 200px;
+  right: 200px;
 }

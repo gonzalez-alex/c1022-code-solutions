@@ -1,0 +1,95 @@
+body {
+  font-family: Avenir, sans-serif;
+}
+
+nav {
+  font-size: 0.75rem;
+  margin-top: 20px;
+  padding-right: 40px;
+}
+
+a {
+  color: #b3b3b3;
+  text-decoration: none;
+}
+
+header {
+  border-bottom: 1px solid #ecedf0;
+}
+
+h2 {
+  color: white;
+  font-family: "tiempos headline", serif;
+  padding: 20px 10px 0 40px;
+  font-weight: 400;
+}
+
+div.column-55percent > p {
+  color: white;
+  font-size: 0.67rem;
+  padding-left: 40px;
+  padding-right: 10px;
+  line-height: 1.2rem;
+}
+
+.content {
+  box-sizing: content-box;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  flex-basis: 100%;
+}
+
+.column-half {
+  flex-basis: 50%;
+}
+
+.column-55percent {
+  flex-basis: 55%;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.nav-spacing {
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
+.blue-logo {
+  width: 125px;
+  padding: 20px 0 0 30px;
+}
+
+.padding-left {
+  padding-left: 30px;
+}
+
+.hero-img {
+  background-image: url("images/hero.jpg");
+  height: 375px;
+  background-size: 100%;
+  margin: 40px 60px;
+}
+
+.blue-button {
+  background-color: #294464;
+  color: white;
+  border: 1px solid #294464;
+  border-radius: 3px;
+}
+
+.contact-us {
+  padding: 8px;
+  margin-bottom: 10px;
+}

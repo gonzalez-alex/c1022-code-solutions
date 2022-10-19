@@ -1,0 +1,62 @@
+body {
+  font-family: barlow, sans-serif;
+  margin: 0;
+}
+
+p {
+  font-size: 0.5rem;
+}
+
+h4 {
+  margin: 5px 0 10px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  flex-basis: 100%;
+}
+
+.column-fourth {
+  flex-basis: 25%;
+}
+
+.center {
+  text-align: center;
+}
+
+.img-160px {
+  width: 160px;
+}
+
+.img-40px {
+  width: 40px;
+}
+
+.padding {
+  padding: 0 85px 10px;
+}
+
+.bg-color {
+  background-color: #f7f8fa;
+}
+
+.margin-top-neg5 {
+  margin-top: -5px;
+}
+
+.margin-tb {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}

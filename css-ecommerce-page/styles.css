@@ -1,0 +1,60 @@
+body {
+  font-family: "DM sans", sans-serif;
+  margin: 0;
+}
+
+p {
+  font-size: 0.5rem;
+  margin-top: 3px;
+}
+
+h4 {
+  text-align: center;
+  margin: 10px 0;
+}
+
+img {
+  width: 125px;
+  height: 175px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.column-full {
+  flex-basis: 100%;
+}
+
+.column-fifth {
+  flex-basis: 20%;
+}
+
+.fit-cover {
+  object-fit: cover;
+}
+
+.fw600 {
+  font-weight: 600;
+}
+
+.padding {
+  padding: 0 85px;
+}
+
+.fc-ltgray {
+  color: #d4d4d4;
+}
+
+.ltpink-bg {
+  background-color: #fff2e7;
+}

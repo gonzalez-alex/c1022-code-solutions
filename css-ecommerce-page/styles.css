@@ -13,6 +13,11 @@ h4 {
   margin: 10px 0;
 }
 
+img {
+  width: 125px;
+  height: 175px;
+}
+
 .container {
   max-width: 800px;
   margin: auto;
@@ -34,9 +39,8 @@ h4 {
   flex-basis: 20%;
 }
 
-.img-size {
-  height: 175px;
-  object-fit: contain;
+.fit-cover {
+  object-fit: cover;
 }
 
 .fw600 {

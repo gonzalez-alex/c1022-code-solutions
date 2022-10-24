@@ -1,19 +1,19 @@
 console.log('hello, world');
 
-document.querySelector('h1');
-console.log('$heading', document.querySelector('h1'));
-console.dir(document.querySelector('h1'));
+var $heading = document.querySelector('h1');
+console.log('$heading', $heading);
+console.dir($heading);
 
-document.querySelector('#explanation');
-console.log('$explanation', document.querySelector('#explanation'));
-console.dir(document.querySelector('#explanation'));
+var $explanation = document.querySelector('#explanation');
+console.log('$explanation', $explanation);
+console.dir($explanation);
 
-document.querySelector('.hint');
-console.log('$hint', document.querySelector('.hint'));
-console.dir(document.querySelector('.hint'));
+var $hint = document.querySelector('.hint');
+console.log('$hint', $hint);
+console.dir($hint);
 
-document.querySelectorAll('p');
-console.log('$paragraphs', document.querySelectorAll('p'));
+var $paragraphs = document.querySelectorAll('p');
+console.log('$paragraphs', $paragraphs);
 
-document.querySelectorAll('.example-link');
-console.log('$links', document.querySelectorAll('.example-link'));
+var $links = document.querySelectorAll('.example-link');
+console.log('$links', $links);

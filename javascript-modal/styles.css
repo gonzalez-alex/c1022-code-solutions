@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.blue-btn {
+  background-color: #4a4ae9;
+  border: 1px solid #4a4ae9;
+}
+
+.red-btn {
+  background-color: #eb5d5d;
+  border: 1px solid #eb5d5d;
+}
+
+.button {
+  padding: 5px 20px;
+  color: white;
+  border-radius: 2px;
+  box-shadow: 0 1px 2px black;
+}
+
+.hidden {
+  display: none;
+}
+
+.fixed {
+  position: fixed;
+  left: 0;
+  right: 0;
+  transform: translateY(200%);
+  background-color: white;
+}
+
+.text-center {
+  text-align: center;
+}

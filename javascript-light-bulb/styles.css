@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fef9f1;
+  margin: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+div.row {
+  height: 100vh;
+}
+
+.light-on {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: #faea84;
+  box-shadow: 0 0 15px #faea84;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.light-off {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: #252525;
+}
+
+.body-off {
+  background-color: black;
+}

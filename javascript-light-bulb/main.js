@@ -1,11 +1,11 @@
-var clickCount = 0;
+var isLightOn = true;
 
 var $circle = document.querySelector('.light-on');
 var $body = document.querySelector('body');
 
 function lightOnOff(event) {
-  clickCount++;
-  if (clickCount % 2 === 0) {
+  isLightOn = !isLightOn;
+  if (isLightOn) {
     $circle.className = ('light-on');
     $body.classList.remove('body-off');
   } else {

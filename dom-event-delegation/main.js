@@ -7,7 +7,7 @@ function logConsole(event) {
 
 $taskList.addEventListener('click', logConsole);
 $taskList.addEventListener('click', function (e) {
-  if (e.target && e.target.nodeName === 'BUTTON') {
+  if (e.target.tagName === 'BUTTON') {
     var ancestor = e.target.closest('.task-list-item');
     console.log('closest .task-item-list', ancestor);
     ancestor.remove();

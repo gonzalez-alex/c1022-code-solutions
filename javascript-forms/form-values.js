@@ -1,10 +1,10 @@
 var $contactForm = document.querySelector('#contact-form');
 
-var newObject = {};
-
 $contactForm.addEventListener('submit', logValues);
 
 function logValues(event) {
+  var newObject = {};
+
   event.preventDefault();
   newObject.name = $contactForm.elements.name.value;
   newObject.email = $contactForm.elements.email.value;

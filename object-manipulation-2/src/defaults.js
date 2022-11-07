@@ -3,7 +3,7 @@
 /*
 - loop through object from source parameter
     - if key is not in target parameter
-        - source object at key parameter is assigned to target object at key parameter
+        - value from object of the source parameter at key is assigned to object from target parameter at key
 */
 
 function defaults(target, source) {

@@ -35,8 +35,5 @@ Account.prototype.getBalance = function () {
       accBalance -= this.transactions[i].amount;
     }
   }
-  if (accBalance === 0) {
-    return 0;
-  }
   return accBalance;
 };

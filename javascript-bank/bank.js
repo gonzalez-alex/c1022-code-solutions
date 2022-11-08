@@ -30,8 +30,5 @@ Bank.prototype.getTotalAssets = function () {
   for (var i = 0; i < this.accounts.length; i++) {
     totalAssets += this.accounts[i].getBalance();
   }
-  if (totalAssets === 0) {
-    return 0;
-  }
   return totalAssets;
 };

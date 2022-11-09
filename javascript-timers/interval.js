@@ -4,9 +4,8 @@ var count = 4;
 
 function timer() {
   count--;
-  if (count > 0) {
-    $countdown.textContent = count;
-  } else {
+  $countdown.textContent = count;
+  if (count === 0) {
     $countdown.textContent = '~Earth Beeeelooowww Us~';
     clearInterval(intervalID);
   }
